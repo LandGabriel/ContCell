@@ -1,0 +1,27 @@
+.neut, .linfo, .mono, .eosi, .baso {
+    width: 30px;
+    padding: 2px;
+    display: block;
+    margin-bottom: 10px; 
+    object-fit: cover;
+    width: 44px;
+}
+
+#container {
+    overflow: hidden;
+    width: 100vh;
+}
+
+    #container {
+        width: 80%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #1d2631;
+        position: relative;
+        top: -10px;
+        overflow: hidden;
+}
+
+  
