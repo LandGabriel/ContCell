@@ -2,7 +2,7 @@
 ![Logo do projeto](https://raw.githubusercontent.com/LandGabriel/ContCell/main/fotos.img/ContCell.png)
 
 # Contador de células hematológicas
-
+:mag_right: [Veja o projeto](https://landgabriel.github.io/ContCell/contador.html)
 ## 🔥 Introdução
 
 
