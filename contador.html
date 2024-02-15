@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/lab" sizes="16x16" href="fotos.img/favicon-16x16.jpeg">
     <link rel="stylesheet" href="estilo.css"> 
-    <link rel="icon" type="image/jpeg" sizes="16x16"  href="/asda/favicon-16x16.jpeg">
     <link rel="stylesheet" href="imagems.css"> 
     <title>Contador de Células</title>
+    <link rel="icon" type="image/jpeg" sizes="16x16"  href="/asda/favicon-16x16.jpeg">
 </head>
 <body>
-    
-    <img src="fotos.img/topo1.jpg" alt="lab" class="imagem-topo">
-    
+<header>
+    <img src="fotos.img/icons8-microscópio-100.png" id="micro" alt="Mic">
+</header>
 
     <div id="container">
         <div id="calculator">
             <h2>Contador de Células</h2>
             <div id="input_box">
+                <section>
                 <div class="input-filed">
                     <label for="button4">4</label>
                     <button id="button4">Neutrófilo</button>
@@ -45,27 +47,29 @@
                 <div class="input-filed">
                     <label for="button6">2</label>
                     <button id="button6">Outras</button>
+                    <img src="fotos.img/interrogação.png" alt= "lab2" class="eosi">
+
                 </div>
                 <div class="input-filed">
                     <label for="button6">0</label>
                     <button id="button6">NRBC</button>
+                    <img src="fotos.img/eritroblasto.png" alt="lab0" class="eritro">
+
                 </div>
+            </section>
             </div>
             <div id="clickDisplay">0</div> 
         </div>
         <div id="completionMessage"></div>
-   
-<div id="Contagem1">
-    <div>Neutrófilo: <span id="count-4">0</span>%</div>
-    <div>Linfócito: <span id="count-5">0</span>%</div>
-    <div>Monócito: <span id="count-6">0</span>%</div>
-    <div>Eosinófilo: <span id="count-1">0</span>%</div>
-    <div>Basófilo: <span id="count-3">0</span>%</div>
-    <div>Outras: <span id="count-2">0</span>%</div>
-    <div>NRBC: <span id="count-0">0</span>%</div>
-</div>
-
-
+        <div id="Contagem1">
+            <div>Neutrófilo: <span id="count-4">0</span>%</div>
+            <div>Linfócito: <span id="count-5">0</span>%</div>
+            <div>Monócito: <span id="count-6">0</span>%</div>
+            <div>Eosinófilo: <span id="count-1">0</span>%</div>
+            <div>Basófilo: <span id="count-3">0</span>%</div>
+            <div>Outras: <span id="count-2">0</span>%</div>
+            <div>NRBC: <span id="count-0">0</span>%</div>
+        </div>
     </div>
     <footer>
         &copy; By landG
